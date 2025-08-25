@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Tanguturu Naveen</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2>Tanguturu Naveen</h2>
+    <nav>
+      <a href="#services">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hey There, I'm <span class="highlight">Tanguturu Naveen</span></h1>
+      <p>Computer Science graduate skilled in Python, JavaScript, Web Scraping, and Power BI.</p>
+      <p><b>Phone:</b> +91 8466004030</p>
+      <p><b>Email:</b> naveennaveen3714@gmail.com</p>
+      <p><b>LinkedIn:</b> 
+        <a href="https://linkedin.com/in/tanguturunaveen" target="_blank">linkedin.com/in/tanguturunaveen</a>
+      </p>
+    </div>
+    <img src="assets/profile.jpg" alt="Tanguturu Naveen">
+  </section>
+
+  <!-- Skills -->
+  <section id="services" class="services">
+    <h2>Technical Skills</h2>
+    <div class="service-cards">
+      <div class="card"><h3>Programming</h3><p>Python, JavaScript</p></div>
+      <div class="card"><h3>Web Development</h3><p>HTML, CSS, Full-Stack</p></div>
+      <div class="card"><h3>Database</h3><p>MySQL</p></div>
+      <div class="card"><h3>Data Visualization</h3><p>Power BI</p></div>
+      <div class="card"><h3>Tools</h3><p>Git, VS Code, MS Office</p></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="experience">
+    <h2>Internships & Training</h2>
+    <div class="exp-item">
+      <h3>Python Full Stack Training – Codegnan Institute</h3>
+      <p>July 2023 – Jan 2024</p>
+      <ul>
+        <li>Web Scraping Project using Python (BeautifulSoup & Requests)</li>
+        <li>Portfolio Website using HTML, CSS, and JS</li>
+      </ul>
+    </div>
+    <div class="exp-item">
+      <h3>Python Full Stack Intern</h3>
+      <p>Jan 2024 – May 2024</p>
+      <p>Built apps with HTML, CSS, JS, Python, MySQL & REST APIs.</p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>B.Tech, Computer Science</h3>
+      <p>Sri Venkateswara Engineering College, Tirupati</p>
+      <p>2021 – 2024 | CGPA: 7.52 / 10</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-gallery">
+      <div class="project">
+        <h4>Online Voting System</h4>
+        <ul>
+          <li>Secure voting with Python & OpenCV</li>
+          <li>Facial recognition for verification</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h4>Web Scraping Project</h4>
+        <ul>
+          <li>Scraped product data from e-commerce sites</li>
+          <li>Analyzed trends using Python</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h4>CSP Project on Silk Worms</h4>
+        <ul>
+          <li>Researched silk-based thermal fabrics</li>
+          <li>Proposed eco-friendly alternatives to synthetics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input id="name" type="text" placeholder="Your Name" required>
+      <input id="email" type="email" placeholder="Your Email" required>
+      <input id="subject" type="text" placeholder="Subject" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+      <p id="status"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tanguturu Naveen</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
